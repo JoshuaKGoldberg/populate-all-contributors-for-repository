@@ -1,10 +1,10 @@
 {
-	"name": "generate-all-contributors-for-repository",
+	"name": "populate-all-contributors-for-repository",
 	"version": "0.0.0",
-	"description": "Populates the .allcontributorsrc for a repository using all-contributors-for-repository. 🤝",
+	"description": "Populates the .all-contributorsrc for a repository using all-contributors-for-repository. 📋",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JoshuaKGoldberg/generate-all-contributors-for-repository"
+		"url": "https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository"
 	},
 	"license": "MIT",
 	"author": {
@@ -34,7 +34,10 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"all-contributors-for-repository": "^0.3.1",
+		"execa": "^9.5.2"
+	},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.4.1",
 		"@eslint/js": "9.16.0",

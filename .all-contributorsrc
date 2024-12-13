@@ -27,7 +27,7 @@
     "README.md"
   ],
   "imageSize": 100,
-  "projectName": "generate-all-contributors-for-repository",
+  "projectName": "populate-all-contributors-for-repository",
   "projectOwner": "JoshuaKGoldberg",
   "repoHost": "https://github.com",
   "repoType": "github"

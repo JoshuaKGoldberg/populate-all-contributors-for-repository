@@ -58,7 +58,7 @@ export default tseslint.config(
 		rules: {
 			"n/no-missing-import": [
 				"error",
-				{ allowModules: ["generate-all-contributors-for-repository"] },
+				{ allowModules: ["populate-all-contributors-for-repository"] },
 			],
 		},
 	},
