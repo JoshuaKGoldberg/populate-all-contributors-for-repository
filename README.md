@@ -18,6 +18,20 @@
 ## Usage
 
 ```shell
+npx populate-all-contributors-for-repository --owner Owner --repository TestRepository
+```
+
+`populate-all-contributors-for-repository` will add each contributor automatically detected by [`all-contributors-for-repository`](https://github.com/JoshuaKGoldberg/all-contributors-for-repository) to your `.all-contributorsrc` file.
+
+> [!NOTE]
+> Contributors are added in series using `npx all-contributors-cli add`.
+> See [all-contributors/cli#362](https://github.com/all-contributors/cli/issues/362) for a feature request to speed this up.
+
+### Node.js API
+
+Alternately, this can be called programmatically:
+
+```shell
 npm i populate-all-contributors-for-repository
 ```
 
@@ -30,13 +44,7 @@ await populateAllContributorsForRepository({
 });
 ```
 
-Running `populateAllContributorsForRepository` will add each contributor automatically detected by [`all-contributors-for-repository`](https://github.com/JoshuaKGoldberg/all-contributors-for-repository) to your `.all-contributorsrc` file.
-
-> [!NOTE]
-> Contributors are added in series using `npx all-contributors-cli add`.
-> See [all-contributors/cli#362](https://github.com/all-contributors/cli/issues/362) for a feature request to speed this up.
-
-### Options
+#### Options
 
 `populateAllContributorsForRepository` takes in the same `RawAllContributorsForRepositoryOptions` options type as [`all-contributors-for-repository`](https://github.com/JoshuaKGoldberg/all-contributors-for-repository)'s `getAllContributorsForRepository`.
 See [`all-contributors-for-repository` > Options](https://github.com/JoshuaKGoldberg/all-contributors-for-repository#options).
