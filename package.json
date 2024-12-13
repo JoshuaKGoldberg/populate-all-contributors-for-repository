@@ -15,10 +15,11 @@
 	"main": "./lib/index.js",
 	"bin": "./bin/index.mjs",
 	"files": [
-		"LICENSE.md",
-		"README.md",
+		"bin/",
 		"lib/",
-		"package.json"
+		"LICENSE.md",
+		"package.json",
+		"README.md"
 	],
 	"scripts": {
 		"build": "tsup",
