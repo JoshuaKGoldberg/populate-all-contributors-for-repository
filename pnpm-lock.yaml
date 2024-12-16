@@ -12,8 +12,8 @@ importers:
         specifier: ^6.26.1
         version: 6.26.1
       all-contributors-for-repository:
-        specifier: ^0.3.1
-        version: 0.3.1
+        specifier: ^0.4.0
+        version: 0.4.0
       execa:
         specifier: ^9.5.2
         version: 9.5.2
@@ -1167,8 +1167,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  all-contributors-for-repository@0.3.1:
-    resolution: {integrity: sha512-f8//rD53WO2HNq1BpR7jJSUGGHw8iMFL3jLHJ1lV3UT+Wlr+ogh1w4lq2UZgMnXWN17WzaZ9P3NfFTzgV90sZQ==}
+  all-contributors-for-repository@0.4.0:
+    resolution: {integrity: sha512-qGJHdVaRnoKMEZ6IcDvrFQJIDA9KPSsCVAMk+mjqVkHMYrgvp05TU94I8x4SjwWIfYBLp9heC9Onh55BIrOA4A==}
     engines: {node: '>=18'}
 
   ansi-escapes@4.3.2:
@@ -1783,6 +1783,10 @@ packages:
     resolution: {integrity: sha512-vpeMIQKxczTD/0s2CdEWHcb0eeJe6TFjxb+J5xgX7hScxqrGuyjmv4c1D4A/gelKfyox0gJJwIHF+fLjeaM8kQ==}
     engines: {node: '>=18'}
 
+  get-github-auth-token@0.1.0:
+    resolution: {integrity: sha512-ENm+A39AV0X4+Ls1jiCvmqx+C8hSYTv4d5hV9Ks+EL+gx9a0P9pYYpRE1k2ExwRT3EFQabGXF1Rkdp5FIsLkiw==}
+    engines: {node: '>=18'}
+
   get-stdin@9.0.0:
     resolution: {integrity: sha512-dVKBjfWisLAicarI2Sf+JuBE/DghV4UzNAVe9yhEJuzeREd3JhOTE9cUaJTeSa77fsbQUK3pcOpJfM59+VKZaA==}
     engines: {node: '>=12'}
@@ -2240,6 +2244,10 @@ packages:
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
+
+  octokit-from-auth@0.3.0:
+    resolution: {integrity: sha512-HeS+YVPExV5nkdRZyQQRepZVV+pL4ahVmh9KfKXLAbNc3D82G2xeuSWfKzHSIlqB1taQnZYPJWdpfcIe45d1lw==}
+    engines: {node: '>=18.3.0'}
 
   octokit@4.0.2:
     resolution: {integrity: sha512-wbqF4uc1YbcldtiBFfkSnquHtECEIpYD78YUXI6ri1Im5OO2NLo6ZVpRdbJpdnpZ05zMrVPssNiEo6JQtea+Qg==}
@@ -3957,12 +3965,13 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  all-contributors-for-repository@0.3.1:
+  all-contributors-for-repository@0.4.0:
     dependencies:
       co-author-to-username: 0.1.1
       conventional-commits-parser: 6.0.0
       description-to-co-authors: 0.3.0
       octokit: 4.0.2
+      octokit-from-auth: 0.3.0
 
   ansi-escapes@4.3.2:
     dependencies:
@@ -4672,6 +4681,8 @@ snapshots:
 
   get-east-asian-width@1.3.0: {}
 
+  get-github-auth-token@0.1.0: {}
+
   get-stdin@9.0.0: {}
 
   get-stream@8.0.1: {}
@@ -5122,6 +5133,11 @@ snapshots:
       unicorn-magic: 0.3.0
 
   object-assign@4.1.1: {}
+
+  octokit-from-auth@0.3.0:
+    dependencies:
+      get-github-auth-token: 0.1.0
+      octokit: 4.0.2
 
   octokit@4.0.2:
     dependencies:
