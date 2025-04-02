@@ -3,8 +3,8 @@
 After [forking the repo from GitHub](https://help.github.com/articles/fork-a-repo) and [installing pnpm](https://pnpm.io/installation):
 
 ```shell
-git clone https://github.com/(your-name-here)/generate-all-contributors-for-repository
-cd generate-all-contributors-for-repository
+git clone https://github.com/(your-name-here)/populate-all-contributors-for-repository
+cd populate-all-contributors-for-repository
 pnpm install
 ```
 

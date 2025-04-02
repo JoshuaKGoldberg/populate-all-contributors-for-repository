@@ -1,10 +1,10 @@
 {
-	"name": "generate-all-contributors-for-repository",
+	"name": "populate-all-contributors-for-repository",
 	"version": "0.1.2",
 	"description": "Populates the .all-contributorsrc for a repository using all-contributors-for-repository. 📋",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/JoshuaKGoldberg/generate-all-contributors-for-repository.git"
+		"url": "git+https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository.git"
 	},
 	"license": "MIT",
 	"author": {
