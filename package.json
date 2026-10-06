@@ -39,7 +39,9 @@
 	"dependencies": {
 		"all-contributors-cli": "^6.26.1",
 		"all-contributors-for-repository": "^0.5.0",
-		"execa": "^9.5.2"
+		"execa": "^9.5.2",
+		"parse-standard-args": "link:../parse-standard-args",
+		"zod": "^4.6.5"
 	},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.7.0",
