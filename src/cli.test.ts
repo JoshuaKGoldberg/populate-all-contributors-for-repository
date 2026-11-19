@@ -28,7 +28,6 @@ describe("cli", () => {
 	});
 
 	afterEach(() => {
-		// console-fail-test fails tests that print, so clear the expected prints.
 		mockError.mockClear();
 		mockLog.mockClear();
 		process.exitCode = undefined;
