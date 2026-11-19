@@ -40,7 +40,7 @@
 		"all-contributors-cli": "^6.26.1",
 		"all-contributors-for-repository": "^0.5.0",
 		"execa": "^9.5.2",
-		"parse-standard-args": "link:../parse-standard-args",
+		"parse-standard-args": "^0.3.0",
 		"zod": "^4.6.5"
 	},
 	"devDependencies": {
