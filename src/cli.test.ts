@@ -118,9 +118,9 @@ describe("cli", () => {
 			Populates the .all-contributorsrc for a repository using all-contributors-for-repository.
 
 			Options:
-			      --owner <string>       GitHub organization or user that owns the repository (required)
-			      --repository <string>  Name of the repository on GitHub (required)
-			  -h, --help                 Show this help message
+			      --owner <owner>            GitHub organization or user that owns the repository (required)
+			      --repository <repository>  Name of the repository on GitHub (required)
+			  -h, --help                     Show this help message
 
 			Examples:
 			  populate-all-contributors-for-repository --owner JoshuaKGoldberg --repository create-typescript-app",

@@ -14,11 +14,13 @@ const settings = {
 		owner: z
 			.string()
 			.min(1, "Must not be empty.")
-			.describe("GitHub organization or user that owns the repository"),
+			.describe("GitHub organization or user that owns the repository")
+			.meta({ placeholder: "owner" }),
 		repository: z
 			.string()
 			.min(1, "Must not be empty.")
-			.describe("Name of the repository on GitHub"),
+			.describe("Name of the repository on GitHub")
+			.meta({ placeholder: "repository" }),
 	}),
 };
 
