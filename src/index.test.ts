@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from "vitest";
 
-import { populateAllContributorsForRepository } from "./index.js";
+import { populateAllContributorsForRepository } from "./index.ts";
 
 const mockGetAllContributorsForRepository = vi.fn();
 
@@ -18,7 +18,7 @@ vi.mock("execa", () => ({
 	},
 }));
 
-describe("populateAllContributorsForRepository", () => {
+describe(populateAllContributorsForRepository, () => {
 	it("runs all-contributors-cli for each contributor", async () => {
 		mockGetAllContributorsForRepository.mockResolvedValueOnce({
 			JoshuaKGoldberg: {

@@ -1,6 +1,7 @@
+// eslint-disable-next-line n/no-unsupported-features/node-builtins -- parseArgs has been available (experimentally) since Node.js 18.3.0
 import { parseArgs } from "node:util";
 
-import { populateAllContributorsForRepository } from "./index.js";
+import { populateAllContributorsForRepository } from "./index.ts";
 
 export async function cli(args: string[]) {
 	const { values } = parseArgs({
