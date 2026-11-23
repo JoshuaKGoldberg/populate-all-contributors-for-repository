@@ -41,6 +41,11 @@ export default defineConfig(
 			},
 		},
 		rules: {
+			"n/no-unsupported-features/node-builtins": [
+				"error",
+				{ allowExperimental: true },
+			],
+
 			// Stylistic concerns that don't interfere with Prettier
 			"logical-assignment-operators": [
 				"error",
