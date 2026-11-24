@@ -26,6 +26,5 @@
   ],
   "projectName": "populate-all-contributors-for-repository",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }

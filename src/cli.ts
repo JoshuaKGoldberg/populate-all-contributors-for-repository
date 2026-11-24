@@ -1,6 +1,6 @@
 import { parseArgs } from "node:util";
 
-import { populateAllContributorsForRepository } from "./index.js";
+import { populateAllContributorsForRepository } from "./index.ts";
 
 export async function cli(args: string[]) {
 	const { values } = parseArgs({
