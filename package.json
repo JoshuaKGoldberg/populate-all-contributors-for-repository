@@ -1,6 +1,6 @@
 {
 	"name": "populate-all-contributors-for-repository",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "Populates the .all-contributorsrc for a repository using all-contributors-for-repository. 📋",
 	"repository": {
 		"type": "git",
