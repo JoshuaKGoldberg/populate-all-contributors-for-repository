@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.6](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/compare/0.1.5...0.1.6) (2026-11-25)
+
+### Bug Fixes
+
+- **deps:** update dependency execa to v10 ([#425](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/issues/425)) ([60e0eca](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/commit/60e0eca8f9d596156a91aa323175bdf740783ca7))
+
 ## [0.1.5](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/compare/0.1.4...0.1.5) (2026-11-25)
 
 ### Bug Fixes
