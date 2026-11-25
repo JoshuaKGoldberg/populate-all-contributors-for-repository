@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.5](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/compare/0.1.4...0.1.5) (2026-11-25)
+
+### Bug Fixes
+
+- **deps:** update dependency all-contributors-for-repository to v1 ([#424](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/issues/424)) ([7228270](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/commit/72282702cd386a2614e6442b990c594cd006ba29))
+
 ## [0.1.4](https://github.com/JoshuaKGoldberg/populate-all-contributors-for-repository/compare/0.1.3...0.1.4) (2026-11-24)
 
 ### Bug Fixes
